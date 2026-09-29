@@ -2,6 +2,19 @@
 
 Claude Code skill for deep research verification and claim triage.
 
+## Where to go
+
+This repo follows ICM (Jake Van Clief's folder method): this file routes, each room's
+`CONTEXT.md` holds its contract.
+
+| Task                                                                 | Go to                    | Read                                                                 | Skills |
+| -------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------------------- | ------ |
+| Change the standalone full-depth claim-triage skill                  | `skills/devilsadvocate/` | [skills/devilsadvocate/CONTEXT.md](skills/devilsadvocate/CONTEXT.md) | none   |
+| Change the automatic skeptic perspective (fires every pipeline step) | `skills/_perspectives/`  | [skills/_perspectives/CONTEXT.md](skills/_perspectives/CONTEXT.md)   | none   |
+
+Root files stay where their tools expect them: `README.md` (GitHub landing page, install
+instructions), `CONTRIBUTING.md`, `LICENSE`.
+
 ## Structure
 
 ```
